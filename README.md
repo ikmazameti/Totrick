@@ -1,3 +1,6 @@
+#Totrick
+Todo list application to help teach Kotlin Android Basics
+
 
 ### Assignment 1
 * todo 1: assignment to change color.
