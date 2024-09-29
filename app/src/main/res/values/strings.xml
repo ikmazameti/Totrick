@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Totrick</string>
+    <string name="created_at">Created at: %1$s</string>
+    <string name="status_completed">completed</string>
+    <string name="status_pending">pending</string>
+
+    <string name="comment">Comment</string>
 </resources>

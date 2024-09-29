@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-parcelize") //enable parceling
 }
 
 android {
@@ -11,6 +12,7 @@ android {
         applicationId = "com.funso.totrick"
         minSdk = 24
         targetSdk = 34
+
         versionCode = 1
         versionName = "1.0"
 
@@ -25,6 +27,9 @@ android {
                 "proguard-rules.pro"
             )
         }
+        debug{
+
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -33,6 +38,13 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+
+    //enable view binding 1.0
+    buildFeatures {
+        viewBinding = true
+    }
+
 }
 
 dependencies {
