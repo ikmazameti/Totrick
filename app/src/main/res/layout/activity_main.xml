@@ -49,7 +49,7 @@
                 android:id="@+id/noItem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="No task here"
+                android:text="No task here!"
                 android:textStyle="bold"
                 android:textColor="#949575"
                 android:textSize="30sp"
