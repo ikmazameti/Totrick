@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id("kotlin-parcelize") //enabled parceling
+
 }
 
 android {
@@ -27,6 +28,9 @@ android {
                 "proguard-rules.pro"
             )
         }
+        debug{
+
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -36,8 +40,9 @@ android {
         jvmTarget = "1.8"
     }
 
-    //enable view binding
-    buildFeatures{
+
+    //enable view binding 1.0
+    buildFeatures {
         viewBinding = true
     }
 

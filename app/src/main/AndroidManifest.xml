@@ -19,7 +19,8 @@
             android:name=".DetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".ListActivity"
+            android:name=".TodoListActivity"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

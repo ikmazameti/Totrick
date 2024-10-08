@@ -1,5 +1,6 @@
 package com.funso.totrick
 
+
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -28,8 +29,6 @@ class TodoAdapter(private val onItemClicked: (todo: TodoItem) -> Unit) :
 
         fun bind(todoItem: TodoItem) {
             val context = binding.root.context
-
-
 
             binding.title.text = todoItem.title
             binding.comment.text = todoItem.comment

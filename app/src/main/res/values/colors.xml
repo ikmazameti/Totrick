@@ -2,7 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#C62828</color>
+
+  <color name="red">#C62828</color>
     <color name="completed">#2E7D32</color>
     <color name="pending">#C62828</color>
 
