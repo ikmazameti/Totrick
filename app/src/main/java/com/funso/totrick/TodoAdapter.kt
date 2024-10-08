@@ -32,8 +32,10 @@ class TodoAdapter(private val onItemClicked: (todo: TodoItem) -> Unit) :
 
             binding.title.text = todoItem.title
             binding.comment.text = todoItem.comment
+
             binding.createdAt.text =
                 context.getString(R.string.created_at, formatDate(todoItem.createdAt))
+
             binding.status.text = if (todoItem.status) {
                 context.getString(R.string.status_completed)
             } else {

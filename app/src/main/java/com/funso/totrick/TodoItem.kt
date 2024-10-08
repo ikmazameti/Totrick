@@ -12,6 +12,6 @@ data class TodoItem(
     val title: String,      // Title of the task
     val createdAt: Date = Date(),  // Date the task was created. Automatically sets the current date
     val comment: String,    // Optional comment or description
-    val status: Boolean// true = Completed, false = Pending
+    val status: Boolean //true = Completed, false = Pending
 ) : Parcelable
 

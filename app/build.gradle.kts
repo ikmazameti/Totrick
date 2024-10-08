@@ -1,7 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("kotlin-parcelize") //enable parceling
+    id("kotlin-parcelize") //enabled parceling
+
 }
 
 android {
@@ -14,7 +15,7 @@ android {
         targetSdk = 34
 
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.8-beta"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
