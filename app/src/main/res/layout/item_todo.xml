@@ -14,6 +14,7 @@
         android:padding="8dp">
 
         <TextView
+            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Task title"
@@ -21,17 +22,20 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/createdAt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Created at: 21 Sept, 2024"
             android:textSize="14sp" />
 
         <TextView
+            android:id="@+id/comment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Comment" />
+            android:text="comment" />
 
         <TextView
+            android:id="@+id/status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Status: Pending"

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow background -->
+    <item
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp">
+        <shape>
+            <solid android:color="#B0BEC5" /> <!-- Light gray for shadow -->
+            <corners android:radius="12dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
+
+    <!-- Actual background with gradient -->
+    <item>
+        <shape>
+            <!-- Gradient from a soft color to a slightly darker one -->
+            <gradient
+                android:angle="45"
+                android:endColor="@color/colorPrimary"
+                android:startColor="@color/pending" />
+
+            <!-- Rounded corners -->
+            <corners android:radius="12dp" />
+
+            <!-- Border -->
+            <stroke
+                android:width="2dp"
+                android:color="#FFFFFF" /> <!-- White border -->
+        </shape>
+    </item>
+</layer-list>
